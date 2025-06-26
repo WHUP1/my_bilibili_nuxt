@@ -1,6 +1,8 @@
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <NuxtLink to="/">首页</NuxtLink>
+    <NuxtLink to="/video">视频页</NuxtLink>
+    <!-- 路由 -->
+    <NuxtPage />
   </div>
 </template>
