@@ -6,3 +6,10 @@
     <NuxtPage />
   </div>
 </template>
+
+<script setup lang="ts">
+useSeoMeta({
+  title: 'bilibili',
+  description: 'hhhhh'
+})
+</script>
